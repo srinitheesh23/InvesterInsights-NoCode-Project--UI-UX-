@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# 📊 InvestorInsights – Smart Investment Dashboard UI
 
-## Project info
+[![Live on Lovable](https://img.shields.io/badge/Live%20Demo-Lovable-10B981?style=for-the-badge&logo=vercel)](https://preview--insight-grade-dashboard.lovable.app/)
 
-**URL**: https://lovable.dev/projects/b75da34b-3ff1-4c1e-9ede-5503fc894b5b
+> **InvestorInsights** is a premium frontend dashboard designed for **investors, VCs, analysts, and operators** to visualize portfolio data, growth metrics, and investment insights. Built using the AI-powered [Lovable](https://lovable.dev) platform, it’s fast, clean, and scalable — ready for real-world SaaS product deployment.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🔗 Project Details
 
-**Use Lovable**
+- **Live Hosted App**: [https://preview--insight-grade-dashboard.lovable.app/](https://preview--insight-grade-dashboard.lovable.app/)
+- **Platform**: [Lovable.dev](https://lovable.dev)
+- **Frontend Type**: UI Showcase (No backend integration)
+- **Stack**:
+  - ⚛️ React 18 + TypeScript
+  - 🎨 Tailwind CSS + shadcn/ui
+  - ⚡ Vite
+  - 💡 AI-powered UI generation (Lovable)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b75da34b-3ff1-4c1e-9ede-5503fc894b5b) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📈 Key Features (UI-Only Demo)
 
-**Use your preferred IDE**
+### 🧠 Investment Overview
+- ROI, IRR, MRR, and runway visual widgets
+- Startup cards with performance graphs
+- KPI dashboards by company
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🔍 Insights & Trends (Mock UI)
+- Burn rate forecasting interface
+- Revenue vs cost trajectory UI
+- AI-generated growth tips (mocked visuals)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 📊 Portfolio Breakdown
+- Multi-portfolio tracking grid
+- Investor report pages with export buttons
+- PDF preview modals for pitch decks & reports
 
-Follow these steps:
+### 📅 Timeline & Notifications
+- Real-time investment status
+- Activity feed & alerts layout
+- Deal tracking timelines with milestones
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Editing Options
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🧠 Option 1: Edit on Lovable (Recommended)
+1. Go to [Lovable Project](https://lovable.dev/projects/b75da34b-3ff1-4c1e-9ede-5503fc894b5b)
+2. Use prompt commands or direct code editing
+3. Auto-commits to your GitHub repo
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 💻 Option 2: Run Locally (Code View)
+
+```bash
+git clone <YOUR_GIT_REPO_URL>
+cd investor-insights
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+investor-insights/
+├── app/                 # Routes and pages
+├── components/          # Reusable UI components
+├── ui/                  # Styled shadcn/ui elements
+├── public/              # Static assets
+│   └── screenshots/     # Dashboard image previews
+├── styles/              # Tailwind base + themes
+└── package.json
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📄 License
+This project is under the MIT License.
+You can use, adapt, and build upon this UI freely for personal, academic, or commercial use.
 
-## What technologies are used for this project?
+Note: This repository is a UI-only demonstration. Backend, database, and proprietary investment logic are not included.
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🤝 Contributing
+You’re welcome to:
 
-## How can I deploy this project?
+Enhance UI design or transitions
 
-Simply open [Lovable](https://lovable.dev/projects/b75da34b-3ff1-4c1e-9ede-5503fc894b5b) and click on Share -> Publish.
+Add new dashboard components
 
-## Can I connect a custom domain to my Lovable project?
+Optimize responsiveness and accessibility
 
-Yes, you can!
+Submit feature requests via Issues
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🌟 Built For
+🧑‍💼 VCs & Angel Investors – Clear visuals for data-driven decisions
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+💹 Startup Founders – Share performance dashboards with stakeholders
+
+🧑‍💻 Frontend Devs – Learn advanced component structuring with Tailwind
+
+📊 Analysts – Use mock components for BI dashboard prototyping
+
